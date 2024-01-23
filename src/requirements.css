@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Canopee;
+    src: url(./fonts/Canopee.ttf);
+}
+@font-face {
+    font-family: Domain;
+    src: url(./fonts/DomaineDispCondMedium.ttf);
+}
+@font-face {
+    font-family: Editorial;
+    src: url(./fonts/EditorialNew-Light.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: #c5beb4;
+}
+
+.nav img{
+    height: 40px;
+    width: 150px;
+}
+.canopee{
+    font-family: Canopee;
+}
+.domain{
+    font-family: Domain;
+}
+.editorial{
+    font-family: Editorial;
+}
+.line-h{
+    line-height: 9vw;
+}
