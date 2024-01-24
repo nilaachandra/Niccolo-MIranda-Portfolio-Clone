@@ -10,7 +10,10 @@
     font-family: Editorial;
     src: url(./fonts/EditorialNew-Light.ttf);
 }
-
+@font-face {
+    font-family: Dynasty;
+    src: url(./fonts/Dynasty\ Fantazy\ Demo.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -37,6 +40,12 @@ html, body{
 .editorial{
     font-family: Editorial;
 }
+.dynasty{
+    font-family: Dynasty;
+}
 .line-h{
     line-height: 9vw;
+}
+.line-hp{
+    line-height: 3vw;
 }
