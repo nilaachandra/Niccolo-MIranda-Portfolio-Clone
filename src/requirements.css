@@ -52,3 +52,6 @@ html, body{
 .line-hh{
     line-height: 7.9vw;
 }
+.line-ww{
+    letter-spacing: -1.5vw;
+}
