@@ -64,6 +64,9 @@ html, body{
 .line-l{
     line-height: 6vw;
 }
+.line-sll{
+    line-height: 2.5vw;
+}
 .line-sl{
     line-height: 2vw;
 }
