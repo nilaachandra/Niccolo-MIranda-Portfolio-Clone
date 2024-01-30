@@ -95,6 +95,21 @@ html, body{
 .oval:hover #arrowH1{
     transition: all ease 0.7s;
     transform: translateX(140%);
-    
-
+}
+.marquee::-webkit-scrollbar{
+    display: none;
+}
+@keyframes mymarquee {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(calc(-100% - 25px));
+    }
+}
+#marquee{
+    animation: mymarquee linear 3s infinite;
+}
+.marquee:hover #marquee{
+    animation-play-state: paused;
 }
