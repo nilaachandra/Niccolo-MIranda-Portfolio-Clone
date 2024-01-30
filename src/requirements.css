@@ -73,3 +73,28 @@ html, body{
 .line-20{
     line-height: 20vw;
 }
+
+#arrow{
+    transition: all ease 0.7s;
+    transform: translateX(-120%);
+}
+#arrowH1{
+    transition: all ease 0.7s;
+    transform: translateX(-25%);
+}
+.oval{
+    transition: all ease 0.7s;
+    
+}
+.oval:hover #arrow{
+    transition: all ease 0.7s;
+    transform: translateX(75%);
+    
+
+}
+.oval:hover #arrowH1{
+    transition: all ease 0.7s;
+    transform: translateX(140%);
+    
+
+}
