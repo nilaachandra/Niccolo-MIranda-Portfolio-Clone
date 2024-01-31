@@ -1,13 +1,13 @@
 // let tl = gsap.timeline();
 // tl.to(".main", {
 //   y: "100vh",
-//   scale: 0.1,
+//   scale: 0.2,
 //   duration: 0,
 //   delay: 0,
 // });
 
 // tl.to(".main", {
-//   y: "0vh",
+//   y: "20vh",
 //   duration: 1,
 //   delay: 1,
 // });
