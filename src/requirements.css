@@ -113,3 +113,15 @@ html, body{
 .marquee:hover #marquee{
     animation-play-state: paused;
 }
+#hoverImg{
+    transition: all ease 0.4s;
+}
+#hoverImg:hover{
+    transition: all ease 0.4s;
+    scale: 1.2;
+}
+#imgDiv{
+    transition: all ease 0.4s;
+    overflow: hidden;
+
+}
