@@ -52,3 +52,18 @@ const locomotiveAnimations = () => {
   ScrollTrigger.refresh();
 };
 locomotiveAnimations();
+
+const header = document.querySelector(".nav");
+const sticky = header.offsetTop;
+
+window.onscroll = function () {
+  stickyHeader();
+};
+
+const stickyHeader = () => {
+  if (window.scrollY > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+};
