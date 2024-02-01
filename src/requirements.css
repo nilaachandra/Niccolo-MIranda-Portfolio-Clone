@@ -114,14 +114,14 @@ html, body{
     animation-play-state: paused;
 }
 #hoverImg{
-    transition: all ease 0.4s;
+    transition: all ease 0.5s;
 }
 #hoverImg:hover{
-    transition: all ease 0.4s;
+    transition: all ease 0.5s;
     scale: 1.2;
 }
 #imgDiv{
-    transition: all ease 0.4s;
+    transition: all ease 0.5s;
     overflow: hidden;
 
 }
