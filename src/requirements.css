@@ -75,25 +75,25 @@ html, body{
 }
 
 #arrow{
-    transition: all ease 0.7s;
+    transition: all ease 0.6s;
     transform: translateX(-120%);
 }
 #arrowH1{
-    transition: all ease 0.7s;
+    transition: all ease 0.6s;
     transform: translateX(-25%);
 }
 .oval{
-    transition: all ease 0.7s;
+    transition: all ease 0.6s;
     
 }
 .oval:hover #arrow{
-    transition: all ease 0.7s;
+    transition: all ease 0.6s;
     transform: translateX(75%);
     
 
 }
 .oval:hover #arrowH1{
-    transition: all ease 0.7s;
+    transition: all ease 0.6s;
     transform: translateX(140%);
 }
 .marquee::-webkit-scrollbar{
